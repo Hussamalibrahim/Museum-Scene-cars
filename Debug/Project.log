@@ -1,0 +1,48 @@
+﻿Build started 1/21/2026 10:39:18 AM.
+     1>Project "D:\Project\Project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\project\tgaloader.h(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>d:\project\source.cpp(241): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(242): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(248): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(251): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(256): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(257): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(258): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(259): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(348): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(349): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(351): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(362): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(363): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(364): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(365): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(369): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(370): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(371): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(372): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\project\source.cpp(818): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\project\source.cpp(821): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>d:\project\source.cpp(1270): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\project\source.cpp(1271): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\project\source.cpp(1290): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\project\source.cpp(1291): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\Debug\Project.exe" /INCREMENTAL /NOLOGO GLAUX.lib GLU32.lib glut.lib OPENGL32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Project\Debug\Project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\Debug\Project.lib" /MACHINE:X86 Debug\3DTexture.obj
+         Debug\camera.obj
+         Debug\heightMap.obj
+         Debug\Model_3DS.obj
+         Debug\skybox.obj
+         Debug\Source.obj
+         Debug\stb_image.obj
+         Debug\texture.obj
+         Project.vcxproj -> D:\Project\Debug\Project.exe
+     1>Done Building Project "D:\Project\Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.13
