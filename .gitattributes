@@ -1,6 +1,27 @@
+# Create .gitignore for your project
+@"
+# Large files
 *.bmp filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+# 3D Models
 *.obj filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
+*.blend
+*.max
+*.ma
+# Visual Studio
+*.sdf
+*.suo
+*.user
+*.opensdf
+# Build directories
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
+git add .gitignore
+git commit -m "Add .gitignore for large files and build artifacts"
+git push
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
-*.tga filter=lfs diff=lfs merge=lfs -text
